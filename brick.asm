@@ -5,7 +5,7 @@ iniCoordX byte 40
 iniCoordy byte 40
 
 .CODE
- main proc
+ brick proc
  mov ax, @data 
  mov ds, ax
  mov ax, 0
@@ -75,7 +75,7 @@ change4:
 
 mov ah, 4ch
 int 21h
-main endp
+brick endp
 
 
 end

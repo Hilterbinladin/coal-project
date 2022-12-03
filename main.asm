@@ -1,5 +1,14 @@
 .model small
 .stack 100h
+include brick.asm
+include circle.asm
 .data
 
-MINHAAJ PLEASE KAAM SHURU KARDO
+main proc
+
+brick
+circle
+
+main endp
+
+end
